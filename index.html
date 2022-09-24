@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+
+    <div class="wrapper">
+    <header>WAKEY</header>
+    <div class="inputField">
+		<input type="text" placeholder="Add Your New Todo">
+		<button><i class="fas fa-plus"></i></button>
+		
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+  
+     
+   <div class="opt">  
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Dark Mode</title>
+	
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+	</script>
+	
+	
+	<style>
+		body{
+		padding:10% 3% 10% 3%;
+		text-align:center;
+		}
+		img{
+			height:140px;
+				width:140px;
+		}
+		h1{
+		color: #32a852;
+		}
+		.mode {
+			float:right;
+		}
+		.change {
+			cursor: pointer;
+			border: 1px solid #555;
+			border-radius: 40%;
+			width: 20px;
+			text-align: center;
+			padding: 5px;
+			margin-left: 8px;
+		}
+		.dark{
+			background-color: #222;
+			color: #e6e6e6;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="mode">
+    
+		Dark mode:			
+		<span class="change">OFF</span>
+    
+	</div>
+	
+	<script>
+		$( ".change" ).on("click", function() {
+			if( $( "body" ).hasClass( "dark" )) {
+				$( "body" ).removeClass( "dark" );
+				$( ".change" ).text( "OFF" );
+			} else {
+				$( "body" ).addClass( "dark" );
+				$( ".change" ).text( "ON" );
+			}
+		});
+	</script>
+</body>
+
+</html>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
