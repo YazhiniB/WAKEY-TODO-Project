@@ -8,5 +8,5 @@ you can use this app in few ways,
 
 if you guys have VScode, try this link: http://127.0.0.1:5500/TODO%20PROJECT/WAKEY2.html/
 
-i have attached other links in the above repository
+i have attached other links in the above files
 
